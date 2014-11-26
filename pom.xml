@@ -17,7 +17,7 @@
                     <forceCreation>true</forceCreation>
                     <archive>
                         <manifest>
-                            <mainClass>com.ericsmith.Server</mainClass>
+                            <mainClass>com.evalurye.Server</mainClass>
                         </manifest>
                     </archive>
                     <outputDirectory>jars</outputDirectory>
@@ -31,6 +31,11 @@
             <artifactId>junit</artifactId>
             <version>4.11</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
         </dependency>
     </dependencies>
 
